@@ -1,0 +1,28 @@
+body {
+  line-height: 1.25rem;
+}
+a {
+  text-decoration: none;
+}
+p.textHaut {
+  color: deeppink;
+  font-weight: bold;
+}
+p.textHaut a {
+  padding-left: 40px;
+}
+p.textHaut a:hover,
+p.textHaut a:active {
+  color: deeppink;
+}
+.barreHaut {
+  background-color: #39057b;
+  color: #df53ff;
+}
+nav ul li a.nav-link {
+  color: white;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: bolder;
+}

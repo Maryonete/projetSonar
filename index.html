@@ -1,13 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=<100>, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projet Solar</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Projet Solar</h1>
-    <p>ca commence ici !</p>
+    <!-- barre head -->
+    <div class="pb-1 pt-2 d-none d-sm-block barreHaut">
+      <p class="text-center fs-5 text-uppercase">
+        [Webinar] Ace Your SonarQube Version Upgrade - April 19th
+        <a href="blabla" class="link-light">Register Now</a>
+      </p>
+    </div>
+    <!-- barre de menu -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark sticky-top"
+      style="background-color: #290042"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="img/sonar-logo-horizontal-dark-bg.svg" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link mx-2" href="#">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">Products</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle mx-2"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Company
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <a
+            href="#"
+            class="btn btn-danger btn-inline-danger btn-lg mx-5 rounded-0"
+            >FREE SONAR</a
+          >
+          <a href="#" class="btn btn-outline-danger btn-lg rounded-0 fw-bolder"
+            >EXPLORE PRICING</a
+          >
+        </div>
+      </div>
+    </nav>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
